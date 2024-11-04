@@ -11,7 +11,7 @@ class MoviesController < ApplicationController
 
     m.save
 
-    redirect_to("https://wikipedia.org", allow_other_host: true)
+    redirect_to("/movies")
 
   end
   
